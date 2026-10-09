@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0B2B26;
+}
+h1{
+
+  font-family: "Original Surfer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: white;
+
+}
+h2{
+    font-weight: 300;
+    text-align: center;
+    color: #DAF1DE;
+}
+.container{
+    display: flex;
+    gap: 70px;
+    margin-top: 90px;
+    color: white;
+    box-shadow: gray;
+    
+    
+}
+.banner img{
+    width: 650px;
+    margin-left: 300px;
+    border-radius: 30px;
+    margin-top: 10px;
+    float:left;
+    margin-right: 150px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:40px ;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+   
+}
+
+input, select{
+    width: 500px;
+    padding: 8px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 17px;
+    border: 1px solid #DAF1DE ;
+}
+.menu{
+    background-color: #235347;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+.btn-cadastro, .btn-limpar{
+    background: #8EB69B;
+    color: white;
+    padding: 10px;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 150px;
+    width: 300px;
+    display: block;
+    border-radius: 10px;
+}
